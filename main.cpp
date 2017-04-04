@@ -43,7 +43,7 @@ int main(int argc, char** argv) {
             switch(resetMode){
                 case WEBSERVER_RESET:
                     printf("Restarting the webserverpi application...\n");
-                    system("sudo forever restart --killsignal=SIGTERM /home/pi/Robotois/webserverpi/server.js ap=true");
+                    system("sudo forever restart --killsignal=SIGTERM /home/pi/Robotois/webserverpi/server.js --ap");
                     break;
                 case RASPBERRY_SHUTDOWN:
                     printf("Raspberry PI going to shutdown... hasta la vista baby!!\n");
