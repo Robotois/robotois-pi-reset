@@ -7,4 +7,4 @@ En esta sección se proporciona la funcionalidad de Reset para la Raspberry PI u
 
 Se debe considerar que el proyecto ```robotois-pi-reset``` debe descargarse en la siguiente ruta: ```/home/pi/Robotois/``` ya que ésta es la ruta por default para el software Robotois. Para incluir la funcionalidad de reset en la Raspberry PI, se deben realizar lo siguiente:
 
-  * Editar el archivo ```/etc/rc.local/```, puede ser usando ```sudo nano /etc/rc.local```, en la última parte antes de la línea ```exit 0```, se debe poner la siguiente línea: ```sudo /home/pi/Robotois/robotois-pi-scripts/reset/run.sh```.
+  * Editar el archivo ```/etc/rc.local/```, puede ser usando ```sudo nano /etc/rc.local```, en la última parte antes de la línea ```exit 0```, se debe poner la siguiente línea: ```sudo /home/pi/Robotois/robotois-pi-reset/run.sh```.
